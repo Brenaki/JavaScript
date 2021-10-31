@@ -1,0 +1,46 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.bnt1 {
+
+    margin: 10px 10px;
+    padding: 5px 18px;
+
+}
+
+.bnt1:hover{
+
+    background-color: rgb(13, 151, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+.bnt2 {
+
+    margin: 10px 10px;
+    padding: 5px 18px;
+
+}
+
+.bnt2:hover {
+
+    background-color: rgb(197, 5, 5);
+    color: rgb(255, 255, 255);
+
+}
+
+.bnk{
+    font-family: fantasy;
+}
