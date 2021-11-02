@@ -1,0 +1,28 @@
+<!doctype html>
+    <html lang=“pt-br”>
+        <head>
+            <title>
+                Javascript - Prompt
+            </title>
+            <meta charset=“UTF-8”>
+            <script>
+            //Conteúdo Javascript
+                var name;
+                name = prompt("Digite seu nome:", "Digite aqui seu nome");
+                var opc;
+                opc = confirm("Aceita os Cookies");
+
+                if(opc == true) {
+                    document.write("<h1>Bem-vindo</h1>");
+                    document.write("<p>Muito obrigado " +name+ " por aceitar nosso cookies</p>");
+                }
+                else {
+                    document.write("<h1>Acesso Negado!!</h1>");
+                    document.write("<p>"+name+ " seu acesso foi negado por você não ter aceitado os cookies!!</p>");
+                }
+            </script>
+        </head>
+        <body>
+            <!-- Conteúdo da página -->
+        </body>
+    </html>
