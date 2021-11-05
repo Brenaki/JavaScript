@@ -1,7 +1,6 @@
 /**
  * Dia 3 - 04/11/2021
  * Script - links de vídeos do youtube
- * Não funciona
  */
 
 var resposta = prompt('Digite um número:', 'de 1 à 10');
@@ -12,19 +11,19 @@ if (resposta >= 6){
 
     switch (resposta){
 
-        case 6:
+        case "6":
             link = '<a href="https://www.youtube.com/watch?v=6ShWtI6geWw"><h1>Clique em mim!!</h1></a>';
             break;
 
-        case 7:
+        case "7":
             link = '<a href="https://www.youtube.com/watch?v=lqtPC2q4we0"><h1>Clique em mim!!</h1></a>';
             break;
 
-        case 8:
+        case "8":
             link = '<a href="https://www.youtube.com/watch?v=KXXs0nWlfcI"><h1>Clique em mim!!</h1></a>';
             break;
 
-        case 9:
+        case "9":
             link = '<a href="https://www.youtube.com/watch?v=fPl-20XpSDM"><h1>Clique em mim!!</h1></a>';
             break;
         
